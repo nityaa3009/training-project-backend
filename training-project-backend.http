@@ -1,0 +1,5 @@
+@training_project_backend_HostAddress = http://localhost:7133
+
+GET {{training_project_backend_HostAddress}}/api/jwt
+
+###
