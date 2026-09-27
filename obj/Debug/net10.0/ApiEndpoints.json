@@ -1,0 +1,81 @@
+[
+  {
+    "ContainingType": "training_project_backend.Controllers.JwtController",
+    "Method": "Get",
+    "RelativePath": "api/Jwt",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "training_project_backend.Controllers.JwtController",
+    "Method": "Get",
+    "RelativePath": "api/Jwt/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "training_project_backend.Controllers.JwtController",
+    "Method": "Delete",
+    "RelativePath": "api/Jwt/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "training_project_backend.Controllers.JwtController",
+    "Method": "Upload",
+    "RelativePath": "api/Jwt/upload",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "TokenName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "TokenFile",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "training_project_backend.Controllers.JwtController",
+    "Method": "Validate",
+    "RelativePath": "api/Jwt/validate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tokenFile",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
